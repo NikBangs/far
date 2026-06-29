@@ -34,7 +34,7 @@ export default function Navigation({ basePath = '' }: { basePath?: string }) {
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-4 md:py-5">
+        <div className="flex items-center justify-between py-2 md:py-3">
 
           {/* Logo */}
           <motion.div
@@ -47,7 +47,7 @@ export default function Navigation({ basePath = '' }: { basePath?: string }) {
               <img
                 src="/far_logo_nav.png"
                 alt="FAR"
-                className="h-20 md:h-24 w-auto object-contain"
+                className="h-14 md:h-16 w-auto object-contain"
               />
             </Link>
           </motion.div>
