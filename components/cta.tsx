@@ -26,7 +26,7 @@ export default function CTA() {
             priority
           />
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-[#1E352F]/70 pointer-events-none" />
+          <div className="absolute inset-0 bg-[#000000]/30 pointer-events-none" />
 
           {/* Content */}
           <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
