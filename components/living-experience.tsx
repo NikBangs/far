@@ -77,7 +77,7 @@ export default function LivingExperience() {
               variants={itemVariants}
               className="font-sans text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl mb-6"
             >
-              Independent Living, <br />
+              Independent Living,{" "}
               <span className="text-primary font-serif italic font-normal">Supported</span>
             </motion.h2>
 
@@ -85,7 +85,7 @@ export default function LivingExperience() {
               variants={itemVariants}
               className="text-base text-foreground/70 mb-8 max-w-md leading-relaxed"
             >
-              We provide a safe, structured, and welcoming community where residents can live independently while enjoying helpful support services and enriching social connections.
+              Designed to support independence, stability, and a higher quality of life.
             </motion.p>
 
             <motion.div variants={itemVariants}>

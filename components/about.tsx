@@ -64,20 +64,14 @@ export default function About() {
                 <span className="float-left relative w-10 h-10 md:w-12 md:h-12 mr-2 mt-1">
                   <Image src="/N.png" alt="N" fill className="object-contain" />
                 </span>
-                estled in the peaceful mountain community of Pine Valley, California, FAR Adult Independent Living offers a supportive environment designed for stability, dignity, and independent living.
+                estled in the peaceful mountain community of Pine Valley, FAR Adult Independent Living offers more than just a place to stay. We provide a calm, supportive environment where individuals can keep building stable, independent lives surrounded by nature, fresh air, and community.
               </p>
               <p className="text-base leading-relaxed text-foreground/70">
-                Our person-centered approach honors each resident&apos;s unique needs and preferences, providing the right level of support at the right time. Whether you&apos;re seeking social connection, wellness activities, or simply a safe and welcoming place to call home, FAR is here for you.
+              Located away from the noise and stress of the city, our home is designed for people who value peace, dignity, and personal growth. Pine Valley is known for its natural beauty, open skies, and strong sense of community. A place that encourages a slower, healthier pace of life centered on wellness and positive daily living.
               </p>
-            </motion.div>
-
-            <motion.div
-              variants={itemVariants}
-              className="rounded-2xl border border-border bg-card p-6 md:p-8 shadow-sm transition-all duration-300 hover:shadow-md"
-            >
-           <p className="text-sm md:text-base leading-relaxed text-foreground/90 font-serif italic">
-  &ldquo;Our holistic approach brings together person-centered care, enriching community experiences, and supportive services. We create an environment where residents thrive, maintaining their independence while enjoying meaningful connections with neighbors and staff who genuinely care.&rdquo;
-</p>
+              <p className="text-base leading-relaxed text-foreground/70">
+              We believe independence thrives best in environments that are supportive, respectful, and community-driven. Our approach is holistic: well-being is connected to stable housing, healthy surroundings, social connection, and access to the resources people need. We aim to create a home where residents feel safe, welcomed, and empowered to continue their journey with confidence.
+              </p>
             </motion.div>
           </div>
         </motion.div>

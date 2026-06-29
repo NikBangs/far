@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer'
 import Link from 'next/link'
 
 export default function FAQ() {
-  const [expanded, setExpanded] = useState<number | null>(0)
+  const [expanded, setExpanded] = useState<number | null>(null)
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
@@ -157,7 +157,7 @@ export default function FAQ() {
                       transition={{ duration: 0.25, ease: 'easeInOut' }}
                     >
                       <div className="border-t border-border px-6 py-5 bg-background/50">
-                        <p className="text-sm md:text-base text-foreground/75 leading-relaxed">
+                        <p className="text-sm md:text-base text-foreground/75 leading-relaxed whitespace-pre-line">
                           {faq.answer}
                         </p>
                       </div>
