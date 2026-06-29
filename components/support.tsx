@@ -82,7 +82,7 @@ export default function Support() {
             className="lg:col-span-5 overflow-hidden rounded-none border border-border shadow-md aspect-[4/5] relative w-full min-h-[400px]"
           >
             <Image
-              src="/Website Assets/Living Experience 3.jpg"
+              src="/Website Assets/FAR team.jpg"
               alt="Outdoor mountain pines surrounding FAR Community"
               fill
               className="object-cover transition-transform duration-500 hover:scale-[1.03]"
