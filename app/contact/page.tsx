@@ -74,12 +74,12 @@ export default function ContactPage() {
   {
     label: 'CALL',
     icon: '/call-icon.png',
-    value: '(619) 000-0000',
+    value: '(619) 735-8677',
   },
   {
     label: 'EMAIL',
     icon: '/email-icon.png',
-    value: 'info@farindependentliving.com',
+    value: 'faradultindliving@gmail.com',
   },
   {
     label: 'HOURS',
