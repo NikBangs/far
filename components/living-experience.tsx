@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import Link from 'next/link'
 
 export default function LivingExperience() {
   const { ref, inView } = useInView({
@@ -89,9 +90,12 @@ export default function LivingExperience() {
             </motion.p>
 
             <motion.div variants={itemVariants}>
-              <button className="inline-flex h-12 items-center justify-center rounded-full bg-primary px-8 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-primary/95 hover:shadow-primary/30 hover:scale-[1.02]">
-                Learn More
-              </button>
+            <Link
+            href="/contact"
+            className="inline-flex h-12 items-center justify-center rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground shadow-lg transition-all hover:bg-primary/95 hover:shadow-primary/30 hover:scale-[1.02]"
+          >
+            Learn More
+          </Link>
             </motion.div>
           </div>
 
