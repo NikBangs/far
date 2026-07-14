@@ -203,10 +203,16 @@ export default function ContactPage() {
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-white/40 mb-4">Quick Links</p>
               <ul className="space-y-2.5">
-                {['About', 'The FAR Experience', 'Services', 'FAQ', 'Contact'].map((link) => (
-                  <li key={link}>
-                    <Link href={`/${link.toLowerCase().replace(/\s+/g, '-')}`} className="text-white/60 text-sm hover:text-white transition-colors">
-                      {link}
+                {[
+                  { label: 'About', href: '/#about' },
+                  { label: 'The FAR Experience', href: '/#experience' },
+                  { label: 'Services', href: '/#living-experience' },
+                  { label: 'FAQ', href: '/#faq' },
+                  { label: 'Contact', href: '/contact' },
+                ].map(({ label, href }) => (
+                  <li key={label}>
+                    <Link href={href} className="text-white/60 text-sm hover:text-white transition-colors">
+                      {label}
                     </Link>
                   </li>
                 ))}
