@@ -16,6 +16,8 @@ const categories = [
   { label: 'Parks',      color: '#6B8F71' },
   { label: 'Gas & fuel', color: '#B5883E' },
   { label: 'Banking',    color: '#4A6FA5' },
+  { label: 'Community',  color: '#9C7A54' },
+  { label: 'Services',   color: '#5C7A89' },
 ]
 
 const allLocations: {
@@ -56,6 +58,12 @@ const allLocations: {
   { name: 'Pine Valley Gas Station', coords: [-116.5298, 32.8208], category: 'Gas & fuel' },
   // Banking
   { name: 'Wells Fargo Bank', coords: [-116.7511469, 32.8335806], category: 'Banking' },
+  // Community
+  { name: 'Pine Valley Community Church', coords: [-116.5274296, 32.8205765], category: 'Community' },
+  { name: 'St Adelaide of Burgundy', coords: [-116.470656, 32.6283009], category: 'Community' },
+  // Services
+  { name: 'Supercuts', coords: [-116.7493065, 32.834], category: 'Services' },
+  { name: 'Jacumba Hot Springs Hotel', coords: [-116.1887971, 32.6180138], category: 'Services' },
 ]
 
 export default function MapSection() {
