@@ -35,7 +35,7 @@ const allLocations: {
   // Pharmacy
   { name: 'Sav-On Pharmacy', coords: [-116.7519987, 32.8331724], category: 'Pharmacy' },
   // Healthcare
-  { name: 'San Ysidro Health Family Medicine', coords: [-116.4733249, 32.629738], category: 'Healthcare' },
+  { name: 'San Ysidro Health Family Medicine', coords: [-117.0737983, 33.125426], category: 'Healthcare' },
   { name: 'Southern Indian Health Council', coords: [-116.7277655, 32.8357856], category: 'Healthcare' },
   // Dining
   { name: 'Krispy Krunchy Chicken', coords: [-116.3544961, 32.7020199], category: 'Dining' },
