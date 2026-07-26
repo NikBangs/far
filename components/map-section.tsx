@@ -26,23 +26,33 @@ const allLocations: {
   // Our Home
   { name: 'FAR Community', coords: [-116.5292, 32.8223], category: 'Our Home' },
   // Groceries
-  { name: 'Pine Valley Grocery Store', coords: [-116.5310, 32.8210], category: 'Groceries' },
+  { name: 'Potrero General Store', coords: [-116.608703, 32.604075], category: 'Groceries' },
+  { name: 'Jameson\'s Liquor', coords: [-116.302354, 32.667895], category: 'Groceries' },
+  { name: 'Mountain Supermarket', coords: [-116.527203, 32.821099], category: 'Groceries' },
+  { name: 'Dollar Tree', coords: [-116.754246, 32.8353947], category: 'Groceries' },
   // Pharmacy
-  { name: 'Pine Valley Pharmacy', coords: [-116.5305, 32.8215], category: 'Pharmacy' },
+  //{ name: 'Pine Valley Pharmacy', coords: [-116.5305, 32.8215], category: 'Pharmacy' },
   // Healthcare
-  { name: 'Pine Valley Medical Clinic', coords: [-116.5270, 32.8240], category: 'Healthcare' },
-  { name: 'Sharp Grossmont Hospital',   coords: [-116.9780, 32.7870], category: 'Healthcare' },
-  { name: 'Jacumba Hot Springs',        coords: [-116.1980, 32.6190], category: 'Healthcare' },
+  { name: 'San Ysidro Health Family Medicine', coords: [-116.4733249, 32.629738], category: 'Healthcare' },
   // Dining
-  { name: 'Frosty Burger',             coords: [-116.5295, 32.8205], category: 'Dining' },
-  { name: 'Pine Valley Inn',           coords: [-116.5288, 32.8212], category: 'Dining' },
+  { name: 'Krispy Krunchy Chicken', coords: [-116.3544961, 32.7020199], category: 'Dining' },
+  { name: 'Golden Grill', coords: [-116.3544961, 32.7020199], category: 'Dining' },
+  { name: 'Frosty Burgers', coords: [-116.5314647, 32.8232243], category: 'Dining' },
+  { name: 'Oak Shore Malt Shop & Restaurant', coords: [-116.512057, 32.680246], category: 'Dining' },
+  { name: 'Pit Stop Deli', coords: [-116.471825, 32.628563], category: 'Dining' },
+  { name: 'Wisteria Candy Cottage', coords: [-116.288548, 32.668506], category: 'Dining' },
+  { name: 'Pine House Cafe & Tavern', coords: [-116.4199778, 32.8620474], category: 'Dining' },
+  { name: 'Descanso Junction Restaurant and Catering', coords: [-116.6137929, 32.8403624], category: 'Dining' },
+  { name: 'Starbucks', coords: [-116.750255, 32.833011], category: 'Dining' },
+  { name: 'Jano\'s Pizza', coords: [-116.754246, 32.8353947], category: 'Dining' },
+  { name: 'Janet\'s Mountain Cafe', coords: [-116.7598746, 32.8351315], category: 'Dining' },
   // Parks
   { name: 'Pine Valley County Park',        coords: [-116.5320, 32.8260], category: 'Parks' },
   { name: 'Cleveland National Forest',      coords: [-116.5500, 32.8400], category: 'Parks' },
   // Gas & fuel
-  { name: 'Pine Valley Gas Station', coords: [-116.5298, 32.8208], category: 'Gas & fuel' },
+  //{ name: 'Pine Valley Gas Station', coords: [-116.5298, 32.8208], category: 'Gas & fuel' },
   // Banking
-  { name: 'Pine Valley Credit Union', coords: [-116.5302, 32.8225], category: 'Banking' },
+  { name: 'Wells Fargo Bank', coords: [-116.7511469, 32.8335806], category: 'Banking' },
 ]
 
 export default function MapSection() {
