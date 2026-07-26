@@ -24,16 +24,17 @@ const allLocations: {
   category: string
 }[] = [
   // Our Home
-  { name: 'FAR Community', coords: [-116.5292, 32.8223], category: 'Our Home' },
+  { name: 'FAR Community', coords: [-116.3837186, 32.7065882], category: 'Our Home' },
   // Groceries
   { name: 'Potrero General Store', coords: [-116.608703, 32.604075], category: 'Groceries' },
   { name: 'Jameson\'s Liquor', coords: [-116.302354, 32.667895], category: 'Groceries' },
   { name: 'Mountain Supermarket', coords: [-116.527203, 32.821099], category: 'Groceries' },
   { name: 'Dollar Tree', coords: [-116.754246, 32.8353947], category: 'Groceries' },
   // Pharmacy
-  //{ name: 'Pine Valley Pharmacy', coords: [-116.5305, 32.8215], category: 'Pharmacy' },
+  { name: 'Sav-On Pharmacy', coords: [-116.7519987, 32.8331724], category: 'Pharmacy' },
   // Healthcare
   { name: 'San Ysidro Health Family Medicine', coords: [-116.4733249, 32.629738], category: 'Healthcare' },
+  { name: 'Southern Indian Health Council', coords: [-116.7277655, 32.8357856], category: 'Healthcare' },
   // Dining
   { name: 'Krispy Krunchy Chicken', coords: [-116.3544961, 32.7020199], category: 'Dining' },
   { name: 'Golden Grill', coords: [-116.3544961, 32.7020199], category: 'Dining' },
@@ -47,10 +48,12 @@ const allLocations: {
   { name: 'Jano\'s Pizza', coords: [-116.754246, 32.8353947], category: 'Dining' },
   { name: 'Janet\'s Mountain Cafe', coords: [-116.7598746, 32.8351315], category: 'Dining' },
   // Parks
-  { name: 'Pine Valley County Park',        coords: [-116.5320, 32.8260], category: 'Parks' },
-  { name: 'Cleveland National Forest',      coords: [-116.5500, 32.8400], category: 'Parks' },
+  { name: 'Pine Valley County Park',        coords: [-116.5619785, 32.822894], category: 'Parks' },
+  { name: 'Cleveland National Forest',      coords: [-116.5364355, 32.7955494], category: 'Parks' },
+  { name: 'Anza-Borrego Desert State Park',        coords: [-116.9110678, 33.100492], category: 'Parks' },
+  { name: 'Cuyamaca Rancho State Park',        coords: [-116.9110678, 33.100492], category: 'Parks' },
   // Gas & fuel
-  //{ name: 'Pine Valley Gas Station', coords: [-116.5298, 32.8208], category: 'Gas & fuel' },
+  { name: 'Pine Valley Gas Station', coords: [-116.5298, 32.8208], category: 'Gas & fuel' },
   // Banking
   { name: 'Wells Fargo Bank', coords: [-116.7511469, 32.8335806], category: 'Banking' },
 ]
